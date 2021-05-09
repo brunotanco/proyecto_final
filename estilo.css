@@ -1,0 +1,401 @@
+   /* ESTRUCTURA PRINCIPAL*/
+
+   header {
+    display: flex;
+    margin: 0;
+    padding: none;
+    /*background: linear-gradient(90deg, rgba(255, 252, 242)40%, rgba(204, 197, 185) 75%, rgba(64, 61, 57) 90% );*/
+    background-color: rgba(204, 197, 185);
+}
+
+nav {
+    padding-bottom: 0;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(235, 94, 40,);
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/*main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}*/
+
+#divMainIndex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    background-color: rgba(255, 252, 242);
+}
+
+/*.navbar-expand-lg{
+    display: flex;
+    align-self: flex-end;
+}*/
+
+#navbarSupportedContent{
+    display: flex;
+    /*align-self: center;
+    align-items: stretch;
+    justify-content: space-between;
+    padding-bottom: 0;*/
+    padding-top: 80px;
+    list-style: none;
+    color: rgba(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+#tituloInicio {
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+}
+
+.tituloMain {
+    background-color: rgba(255, 252, 242);
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-style: normal;
+    color: rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;  
+}
+
+#imgLogo {
+    display: block;
+    width: 130px;
+    height: 127px;
+    float: left;
+    margin-left: 30px;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#divLogoGrande {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 252, 242);
+}
+
+#imgLogoGrande {
+    width: 280px;
+    height: 249px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ol {
+    list-style-type: lower-greek;
+    flex-basis: 200px;
+            order:2;
+            flex-grow:0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(37, 36, 34);
+    padding: 0;
+}
+
+.btn {
+    transition-duration: 0.4s;
+  }
+  
+.btn:hover {
+    background-color:rgb(235, 94, 40);
+    color: white;
+  }
+
+/* Logos Redes Sociales */
+
+#instagramLogo {
+    width: 50px;
+    }
+
+#facebookLogo {
+    width: 50px;
+    }
+
+#youtubeLogo {
+    width: 50px;
+    }
+
+/* INDEX */
+
+#divIndex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    background-color: rgba(255, 252, 242);
+}
+
+#saludoGrandeIndex {
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+
+#saludoChicoIndex {
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
+/*#carouselPadre {
+    display: flex;
+    justify-content: stretch;
+}*/
+
+#carouselExampleCaptions {
+    display: flex;
+}
+
+#divAside1 {
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(37, 36, 34);
+    background-color: rgba(255, 252, 242);
+    border: 1px solid black;
+    border-top:2px black;
+    border-bottom: 2px black;
+    border-style: solid;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+#divAsidePadre {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#divAside2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(64, 61, 57);
+    justify-content: center;
+    padding: 20px;
+}
+
+#tituloAside{
+    color:rgb(255, 252, 242);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#parrafoAside{
+    color:rgb(255, 252, 242);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    align-items: center;
+}
+
+#imgAside{
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/* DESTINOS */
+
+#tabla1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    color: rgb(255, 252, 242);
+    table-layout: fixed;
+    background-color: rgb(64, 61, 57);
+    padding-left: 0;
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 1.1rem;
+}
+
+/* EUROPA */
+
+/*.row-row-cols-1row-cols-md-3g-6{
+    display: grid;
+    justify-content: space-around;
+}*/
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.card {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 277px;
+    background-color: rgba(64, 61, 57);
+    color:rgb(255, 252, 242);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+}
+
+.card-img-top {
+    display: flex;
+    width: 277px;
+}
+
+/* TIPS */
+
+#parrafoTips{
+    background-color: rgba(255, 252, 242);
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    text-align: justify;  
+    font-size: 1.1rem;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 30px;
+}
+
+/* ARTÍCULOS */
+
+.divArticulo{
+    padding: 25px;
+    background-color: rgba(255, 252, 242);
+}
+
+.tituloPrincipalArticulo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: normal;
+    color: rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;  
+}
+
+.tituloArticulo{
+    padding-top: 20px;
+    font-style: normal;
+    color: rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem; 
+}
+
+.parrafoArticulo {
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+/* WHO ARE WE */
+
+#parrafoWaw{
+    background-color: rgba(255, 252, 242);
+    color:rgb(37, 36, 34);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    text-align: justify;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 30px;
+}
+
+/* CONTACTO */
+
+#divContacto {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 10px;
+    background-color: rgba(255, 252, 242);
+}
+
+#formulario1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+#txtArea{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#nombre{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#apellido{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#email{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#nacionalidad{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#recibirCorreo{
+    margin-right: 30px;
+}
+#checkbox{
+    display: block;
+    margin-top: 20px;
+}
