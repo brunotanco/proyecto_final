@@ -63,6 +63,7 @@ section {
 
 #navbarSupportedContent{
     display: flex;
+    flex-wrap: wrap;
     /*align-self: center;
     align-items: stretch;
     justify-content: space-between;
@@ -207,13 +208,13 @@ footer {
     text-align: center;
     padding-top: 35px;
     padding-bottom: 10px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #divAsidePadre {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 #divAside2 {
     display: flex;
@@ -226,22 +227,22 @@ footer {
 #tituloAside{
     color:rgb(255, 252, 242);
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1.5rem;
-    text-align: justify;
+    font-size: 1.4rem;
+    text-align: center;
 }
 
 #parrafoAside{
     color:rgb(255, 252, 242);
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.2rem;
-    text-align: justify;
+    text-align: center;
     align-items: center;
 }
 
 #imgAside{
-    display: flex;
-    flex-direction: row;
-    width: 950px;
+    /*display: flex;
+    flex-direction: row;*/
+    width: 100%;
     padding-right: 0;
     margin-right: 0;
 }
@@ -270,14 +271,15 @@ footer {
 .card-deck {
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .card {
     display: flex;
+    align-self: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 277px;
     background-color: rgba(64, 61, 57);
     color:rgb(255, 252, 242);
     font-family: 'Fira Sans', sans-serif;
@@ -286,7 +288,6 @@ footer {
 
 .card-img-top {
     display: flex;
-    width: 277px;
 }
 
 /* TIPS */
